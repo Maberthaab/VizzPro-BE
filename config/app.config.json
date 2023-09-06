@@ -1,0 +1,39 @@
+{
+	"db": {
+		"host": "localhost",
+		"user": "root",
+		"password": "",
+		"database": "management_visual",
+		"charset": "utf8mb4",
+		"rejectEmpty": true
+	},
+
+	"port": 10000,
+
+	"jwt": {
+		"publicKey": "/path/to/public.pem",
+		"privateKey": "/path/to/private.pem",
+		"passcode": "Your passcode here..",
+		"expired": 1800000
+	},
+	"logs": {
+		"queue_painting": "./../"
+	},
+	"certificates": [
+		"/path/to/cert.pem"
+	],
+
+	"site": {
+		"url": "http://localhost:10000",
+		"title": {
+			"main": "Site main title",
+			"sub": "Sub-title heheheh"
+		}
+	},
+    "whatsapp": {
+        "from": "6287722952749",
+        "to": "120363026687543699@g.us",
+        "url": "https://sinapsis.stechoq.com/api"
+    },
+	"debug": true
+}
